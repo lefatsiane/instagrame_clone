@@ -1,0 +1,83 @@
+.posts {
+  width: 450px;
+  margin: 30px 40px 50px 40px;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.headerAuther {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  font-size: 45px;
+}
+
+.postHeader > span {
+  color: grey;
+  font-size: 15px;
+}
+
+.threeDots {
+  display: flex;
+  flex-direction: row;
+  padding-left: 400px;
+}
+
+.postImage > img {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+}
+
+.postFooterIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postIcons :hover {
+  cursor: pointer;
+}
+
+.postIcons {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.postFooter {
+  padding-bottom: 40px;
+}
+
+.caption > span {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.caption {
+  display: flex;
+  flex-direction: row;
+}
+
+.comments {
+  color: grey;
+  font-size: 15px;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.hrLine {
+  color: grey;
+}

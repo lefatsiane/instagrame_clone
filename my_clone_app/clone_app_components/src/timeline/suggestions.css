@@ -1,0 +1,61 @@
+.suggestions {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.suggestionsTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+  font-weight: bold;
+}
+
+.userNameDetails {
+  display: flex;
+  align-items: center;
+}
+
+.suggestionsInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.relation {
+  color: grey;
+  font-size: 12px;
+}
+
+.suggestionsUserName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.followSuggestionButton {
+  color: rgb(107, 161, 243);
+  font-weight: bold;
+  background: 0;
+  border: 0;
+}
+
+.followSuggestionButton :hover {
+  color: white;
+  cursor: pointer;
+}
+
+.UserName {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.avatar {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.seeAll{ 
+  color: white;
+}

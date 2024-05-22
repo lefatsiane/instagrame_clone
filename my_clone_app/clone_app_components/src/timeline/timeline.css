@@ -1,0 +1,12 @@
+.Timeline{
+    display: flex;
+    flex-direction: row;
+}
+
+.timelineLeft{
+    flex: 0.7;
+}
+
+.timelineSuggestions{
+    flex: 0.3;
+}
